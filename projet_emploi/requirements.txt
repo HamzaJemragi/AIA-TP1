@@ -1,0 +1,28 @@
+1. Éthique et Conformité (Loi 09-08)
+Pour ce projet, le respect du cadre légal marocain et des bonnes pratiques du web a été une priorité absolue :
+
+Respect de la Loi 09-08 :
+Conformément à la législation marocaine sur la protection des personnes physiques à l'égard du traitement des données à caractère personnel,
+ce scraper se limite à la collecte de données publiques relatives aux offres d'emploi (titres, descriptions, entreprises).
+Aucune donnée nominative sur les candidats ou les recruteurs n'a été extraite. Les données sont traitées uniquement dans un but d'analyse statistique et
+de recherche académique.
+
+Politesse Technique :
+Le script respecte scrupuleusement les directives du fichier robots.txt du site cible. Un délai de courtoisie aléatoire (entre 1,5 et 3,5 secondes) a
+été implémenté entre chaque requête pour éviter toute saturation des ressources du serveur hébergeur.
+
+2. Analyse des Limites et Biais du Dataset
+Tout dataset comporte des biais qu'il est nécessaire de documenter pour ne pas fausser les conclusions :
+
+Biais Géographique :
+Une surreprésentation des offres sur l'axe Casablanca-Rabat est probable, reflétant la concentration économique du secteur numérique au Maroc,
+ce qui pourrait masquer des opportunités émergentes dans d'autres régions (comme Tanger ou Agadir ou Safi).
+
+Biais Temporel : La collecte ayant été effectuée sur une période courte (avril 2026), elle ne prend pas en compte la saisonnalité du recrutement
+(ex: pics de recrutement après les remises de diplômes ou en début d'année civile).
+
+Biais de Plateforme : Les résultats sont limités à un seul site. Certaines entreprises recrutent exclusivement via LinkedIn ou par recommandation directe,
+ce qui signifie que notre dataset ne représente qu'une fraction du "marché caché" de l'emploi.
+
+Biais Sectoriel : Le choix des mots-clés de recherche (ex: "Développement", "IA") filtre naturellement les offres transverses qui pourraient pourtant
+inclure des besoins technologiques.
