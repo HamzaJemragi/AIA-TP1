@@ -21,12 +21,10 @@ from scrapping.config import (
     FICHIER_URLS_CSV, DOSSIER_BRUTES, FICHIER_JSON_BRUT,
     DOSSIER_NETTOYEES, FICHIER_CSV_PROPRE
 )
-from scrapping.url_extractor import (
+from scrapping.scrape_emploi import (
     extraire_urls_multipage,
     sauvegarder_urls_csv,
-    charger_urls_depuis_csv
-)
-from scrapping.scraper import (
+    charger_urls_depuis_csv,
     configurer_session,
     scraper_offres,
     sauvegarder_donnees_json
