@@ -29,8 +29,8 @@ from scrapping.scrape_emploi import (
     scraper_offres,
     sauvegarder_donnees_json
 )
-from projet_emploi.data.netoyees.nlp_pipeline import traiter_dataset
-from analyse.visualisation import generer_rapport
+from data.netoyees.nlp_pipeline import traiter_dataset
+from data.analysees.visualisation import generer_rapport
 
 
 def main():

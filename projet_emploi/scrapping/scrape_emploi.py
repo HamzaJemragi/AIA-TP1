@@ -9,6 +9,7 @@ Responsabilités :
 ============================================================
 """
 
+import json
 import csv
 import os
 import time
@@ -17,6 +18,8 @@ import random
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from urllib3 import Retry
+from requests.adapters import HTTPAdapter
 
 
 # ============================================================
